@@ -2,8 +2,8 @@
 Proyecto para la materia de Ingeniería de softaware II en Equipo
 
 Equipo: 
-        Carlos Ernesto Ávila Gómez
-        Saúl Eduardo Delgado González
+        Carlos Ernesto Ávila Gómez,
+        Saúl Eduardo Delgado González,
         Luis Alberto García Rodríguez
 
 Programación en PHP, Javascript, AJAX, HTML, CSS 
