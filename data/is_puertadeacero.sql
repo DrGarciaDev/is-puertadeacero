@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-03-2019 a las 05:04:45
+-- Tiempo de generación: 11-05-2019 a las 07:30:32
 -- Versión del servidor: 10.1.19-MariaDB
 -- Versión de PHP: 7.0.13
 
@@ -38,8 +38,8 @@ CREATE TABLE `casas` (
 --
 
 INSERT INTO `casas` (`id`, `dueno`, `adeudo`, `usuario_id`) VALUES
-(3, 'PEPE CHUGA', '200.00', 1),
-(4, 'CROSTY', '500.00', 2),
+(3, 'PEPE CHUGA', '400.00', 1),
+(4, 'CROSTY', '450.00', 2),
 (5, 'JOSE ANTONIO', '900.00', 3);
 
 -- --------------------------------------------------------
@@ -67,7 +67,10 @@ INSERT INTO `pagos` (`folio`, `fecha`, `monto`, `usuario_id`, `casa_id`) VALUES
 (4, '2018-10-31 18:01:48', '50.00', 1, 4),
 (5, '2018-10-31 18:05:45', '50.00', 1, 4),
 (6, '2018-10-31 18:09:39', '300.00', 1, 4),
-(7, '2019-02-22 06:36:10', '123.00', 1, 3);
+(7, '2019-02-22 06:36:10', '123.00', 1, 3),
+(8, '2019-05-11 06:32:28', '200.00', 1, 3),
+(9, '2019-05-11 06:46:05', '100.00', 2, 3),
+(10, '2019-05-11 06:55:58', '50.00', 2, 4);
 
 -- --------------------------------------------------------
 
@@ -128,12 +131,12 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `casas`
 --
 ALTER TABLE `casas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT de la tabla `pagos`
 --
 ALTER TABLE `pagos`
-  MODIFY `folio` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `folio` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
