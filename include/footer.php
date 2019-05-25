@@ -6,7 +6,18 @@
         <div class="col l6 s12">
           <h5 class="white-text">PUERTA DE ACERO</h5>
           <p class="grey-text text-lighten-4">
-            Proyecto Puerta de Acero, Materia Seminario de Ingeniería del Software
+            Proyecto: Puerta de Acero 
+            <br>
+            Materia: Seminario de Ingeniería del Software II
+            <br>
+            <br>
+            Equipo formado por:
+            <br>
+            Saúl Eduardo Delgado González
+            <br>
+            Carlos Ernesto Ávila Gómez
+            <br>
+            Luis Alberto García Rodríguez
           </p>
 
 
