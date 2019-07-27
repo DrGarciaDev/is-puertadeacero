@@ -341,9 +341,10 @@
 					if(filter_var($correo, FILTER_VALIDATE_EMAIL)){
 						$passCifrado = password_hash($contrasena, PASSWORD_DEFAULT);
 						//var_dump($nombre, $ape_pat, $ape_mat, $curp, $correo, $contrasena, $tipo, $passCifrado);
-						$sql_insert = "INSERT INTO usuarios VALUES('','$nombre','$ape_pat','$ape_mat','$telefono','$correo','$passCifrado','$tipo');";
+						$sql_insert = "INSERT INTO usuarios(nombres, ape_paterno, ape_materno, telefono, correo, contrasena, tipo) 
+                                                    VALUES('$nombre','$ape_pat','$ape_mat','$telefono','$correo','$passCifrado','$tipo');";
 						mysqli_query($enlace,$sql_insert)
-							or die("ERROORRR");
+							or die("Error en la consulta insert usuario: $sql_insert");
 						//echo 'Se ha registrado con exito';
 						$contenido = 'Usuario registrado con éxito';
 						$_SESSION['flash'] = "UsA";
