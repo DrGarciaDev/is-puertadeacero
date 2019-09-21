@@ -23,28 +23,30 @@
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Repos y Proyectos</h5>
+          <h5 class="white-text">Repositorios y Proyectos</h5>
           <ul>
-            <li><a class="white-text" href="https://www.gitlab.com/kernelroots" target="_blank">Gitlab</a></li>
-            <li><a class="white-text" href="https://github.com/kernelroots" target="_blank">Github</a></li>
-            <li><a class="white-text" href="https://bitbucket.org/kernelroots/" target="_blank">Bitbucket</a></li>
-            <li><a class="white-text" href="http://webspruebas.hol.es/" target="_blank">Proyecto Siiau</a></li>
+            <li><a class="white-text" href="https://www.github.com/luigisdeveloper" target="_blank">Mi Github</a></li>
+            <li><a class="white-text" href="https://www.gitlab.com/luigisdeveloper" target="_blank">Mi Gitlab</a></li>
+            <li><a class="white-text" href="https://www.bitbucket.org/luigisdeveloper/" target="_blank">Mi Bitbucket</a></li>
+            <li><a class="white-text" href="https://siiau-materias.000webhostapp.com/" target="_blank">Proyecto Materias Siiau</a></li>
+            <li><a class="white-text" href="https://centro-universitario.000webhostapp.com/" target="_blank">Proyecto Centro Universitario</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Blogs</h5>
           <ul>
-            <li><a class="white-text" href="http://www.codigosdeprogra.com/" target="_blank">Codigosdeprogra</a></li>
+            <li><a class="white-text" href="https://luigisdeveloper.blogspot.com/" target="_blank">Luigis Developer</a></li>
             <li><a class="white-text" href="https://eldocgarcia.blogspot.com/" target="_blank">El Doc García</a></li>
             <li><a class="white-text" href="https://kernelroots.blogspot.com/" target="_blank">Kernel Roots</a></li>
             <li><a class="white-text" href="https://www.facebook.com/codigosdeprogra/" target="_blank">FaceBook Codigos de Progra</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/luigisdev/" target="_blank">FaceBook LuigisDeveloper</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" target="_blank" href="https://eldocgarcia.blogspot.com/">Luis Garcia Design</a>
+      Made by <a class="orange-text text-lighten-3" target="_blank" href="https://luigisdev.com/">Luigis Dev Design</a>
       </div>
     </div>
   </footer>
